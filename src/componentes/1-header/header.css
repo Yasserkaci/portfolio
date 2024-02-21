@@ -1,0 +1,7 @@
+header ul.flex {
+    gap: 16px;
+}
+
+header ul li a {
+    color: var(--title);
+}

@@ -5,6 +5,7 @@ import './header.css'
 const Header = () => {
   return (
     <header className='flex'>
+      <div></div>
       <nav>
         <ul className="flex">
           <li><a href="">About</a></li>

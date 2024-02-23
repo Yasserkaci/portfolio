@@ -7,7 +7,7 @@ const Header = () => {
   const [showmodel, setshowmodel] = useState(false);
   return (
     <header className='flex'>
-      <button className='menu icon-menu' onClick={() => { setshowmodel(true) }} ></button>
+      <button className='menu icon-menu flex' onClick={() => { setshowmodel(true) }} ></button>
 
       <div></div>
       <nav>
@@ -21,7 +21,7 @@ const Header = () => {
       </nav>
 
 
-      <button ><span className='icon-moon-o'></span></button>
+      <button className='mode flex'><span className='icon-moon-o'></span></button>
 
       {showmodel &&
         <div className="fixed">

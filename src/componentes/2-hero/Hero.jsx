@@ -1,5 +1,7 @@
 import React from 'react'
 import './hero.css'
+import Lottie from 'lottie-react'
+import laptop from '../../../public/animation/laptop.json'
 
 const Hero = () => {
   return (
@@ -14,10 +16,10 @@ const Hero = () => {
         <div className="icons flex">
           <a href='https://www.linkedin.com/company/unixes'><div className="icon-linkedin-square"></div></a>
           <a href='https://www.instagram.com/unixesagency/'><div className="icon-instagram"></div></a>
-          <a href=''><div className="icon-github"></div></a>
+          <a href='https://github.com/Yasserkaci'><div className="icon-github"></div></a>
         </div>
       </div>
-      <div className="right-section border">animation</div>
+      <div className="right-section "><Lottie animationData={laptop}></Lottie></div>
 
     </section>
   )

@@ -50,7 +50,25 @@ h1.title{
     margin: 30px 10px 0px 10px;
   }
 
+  .icons a:hover {
+    color: var(--blue);
+  }
 
+.right-section{
+    width: 50rem;
+}
 
+  @media (max-width:700px) {
+
+    p.discreption{
+        width: 100%;
+
+    }
+    section.parent .right-section {
+        display: none;
+    
+    
+    }
+}
 
 

@@ -32,12 +32,19 @@ body{
   color: #fff;
 }
 
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}  
+.border{
+  border: 5px red solid;
+}
 .contaner{
   border: var(--border) solid 2px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondary);
+  padding: 0 4rem;
 }
 
 .divider{
@@ -68,6 +75,22 @@ a{
   scale: .5;
  }
 
+
+
+ @media (max-width:500px) {
+  .contaner{
+    width: 98%;
+    padding: 0 1.8rem 0 1.8rem;
+  }
+  
+ }
+ @media (max-width:1000px) {
+  .contaner{
+    width: 90%;
+    padding: 0 3rem ;
+  }
+  
+ }
 
 
 

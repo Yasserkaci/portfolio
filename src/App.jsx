@@ -13,7 +13,6 @@ function App() {
    return (
       <div className='contaner'>     
          <Header />
-         <div className="divider"/>
          <Hero />
          <div className="divider"/>
          <Main />

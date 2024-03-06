@@ -1,0 +1,28 @@
+section.parent{
+    margin-top: 3rem;
+}
+
+section.parent .left-section .logo-section{
+    flex-grow: 1;
+    align-items: end;
+
+
+}
+section.parent .left-section {
+    flex-grow: 1;
+
+
+}
+
+section.parent .icon-verified {
+    color: var(--blue);
+
+}
+
+section.parent .logo-section .logo {
+    width: 88px;
+    border: 1px darkorange solid;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 2px 2px 40px gray inset;
+}

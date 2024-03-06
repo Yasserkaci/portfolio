@@ -30,6 +30,7 @@ header ul li a:hover {
 
 header button {
     font-size: 1.2rem;
+    align-items: center;
 }
 
 header button.menu {

@@ -3,7 +3,7 @@ import './cards.css'
 
 function Card() {
   return (
-    <div className='flex'>
+    <div className='evry '>
          <div class="nft">
              <div class='main'>
                 <img class='tokenImage' src="./yasser.jpg" alt="yasser" />

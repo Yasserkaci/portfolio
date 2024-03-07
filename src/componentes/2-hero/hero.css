@@ -55,10 +55,11 @@ h1.title{
   }
 
 .right-section{
-    width: 50rem;
+    width: 90rem;
+
 }
 
-  @media (max-width:700px) {
+  @media (max-width:1000px) {
 
     p.discreption{
         width: 100%;

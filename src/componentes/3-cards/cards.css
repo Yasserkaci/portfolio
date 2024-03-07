@@ -1,16 +1,15 @@
 
-  img{
-    border-radius: 50%;
-  }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
   }
-  
+  .evry{
+    display: flex;
+  }
   .nft{
     user-select:none;
     max-width: 300px;
-    margin: 5rem auto;
+    margin: 2rem auto;
     border: 1px solid #ffffff22;
     background-color: #282c34;
     background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
@@ -129,3 +128,24 @@ img{
   border-radius: 50%;
 }
   
+@media (max-width:850px) {
+  .evry{
+    display: block;
+    margin: auto;
+    text-align: center;
+
+    
+  }
+  .nft{
+    height: auto;
+    
+  }
+  .nft{
+    .main{
+      .tokenImage{
+        height: auto;
+      }
+    }
+  }
+  
+}

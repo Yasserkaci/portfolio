@@ -13,7 +13,7 @@ const Header = () => {
       <nav>
         <ul className="flex">
           <li><a href="">About</a></li>
-          <li><a href="">Articles</a></li>
+          <li><a href="">Members</a></li>
           <li><a href="">Projects</a></li>
           <li><a href="">Speaking</a></li>
           <li><a href="">Contact</a></li>
@@ -27,7 +27,7 @@ const Header = () => {
           <ul className="model">
             <li><button onClick={() => { setshowmodel(false) }} className='icon-close'></button></li>
             <li><a href="">About</a></li>
-            <li><a href="">Articles</a></li>
+            <li><a href="">Members</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">Speaking</a></li>
             <li><a href="">Contact</a></li>

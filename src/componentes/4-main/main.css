@@ -54,7 +54,7 @@ main section.right-section.flex {
   flex-grow: 1;
   justify-content: center;
   flex-wrap: wrap;
-
+  width: 100%;
   column-gap: 16px;
   row-gap: 2rem;
 }

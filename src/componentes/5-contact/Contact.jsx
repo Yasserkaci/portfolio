@@ -53,7 +53,7 @@ const Contact = () => {
           {state.succeeded && (
             <p
               className="flex"
-              style={{ fontSize: "18px", marginTop: "1.7rem" }}
+              style={{ fontSize: "18px", marginTop: "1.7rem",  }}
             >
               <Lottie
                 loop={false}

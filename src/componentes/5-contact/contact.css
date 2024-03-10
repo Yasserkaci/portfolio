@@ -74,10 +74,13 @@ section.contact-us .submit {
   transition: 0.3s;
   margin-top: 1.8rem;
   border: 1px solid rgb(63 63 70);
-}
+}       
 
 section.contact-us .submit:hover {
   scale: 0.97;
+}
+p{
+  color: var(--subtitle)
 }
 
 /* =====================================
@@ -97,7 +100,7 @@ section.contact-us .submit:hover {
   }
 
   section.contact-us form {
-    display: flex;
+    display: flex;                   
     flex-direction: column;
     width: 85%;
   }

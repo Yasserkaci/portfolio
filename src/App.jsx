@@ -24,8 +24,7 @@ function App() {
          <div className='contaner'>     
             <Header />
             <Hero />
-            <div className="divider"/>
-            <Card/>
+          
             <div className="divider"/>
             <Main />
             <div className="divider"/>
